@@ -1,0 +1,119 @@
+body {
+    background-color: black;
+    background-image: url(grid.png);
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: lft-etica-mono, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+}
+div.title{
+    font-family: "gloridot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 180px;
+    line-height: 200px;
+    text-align: right;
+    letter-spacing: 30px;
+}
+div.and{
+    font-family: "gloridot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 230px;
+    line-height: 220px;
+    letter-spacing: 30px;
+}
+div.largetext{
+    font-family: "gloridot", sans-serif;
+font-weight: 400;
+font-style: normal;
+    font-size: 100px;
+    line-height:120px;
+}
+div.paraonetext{ 
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+}
+div.paratwotext{ 
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 23px;
+    line-height: 25px;
+    text-align: left;
+}
+
+div.textleft {
+    text-align: left;
+}
+
+div.textcenter {
+    text-align: center;
+}
+
+div.textright {
+    text-align: right;
+}
+
+div.smalltext{
+    font-size: 14px;
+    line-height:16px;
+}
+div.pushtop{
+    margin-top: 100px;
+}
+div.leftmargin{
+    margin-left: 300px;
+}
+div.text-white{
+    color: white;
+}
+div.text-blue{
+    color: blue;
+}
+div.text-red{
+    color: red;
+}
+div.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.swatch{
+    width:300px;
+    height:300px;
+    border-radius: 10px;
+    background-color: red;
+    margin-right: 50px;
+}
+div.bg-white{
+    background-color: white;
+}
+div.bg-red{
+    background-color: blue;
+}
+div.bg-red{
+    background-color: red;
+}
+div.text-move{
+   margin-right: 10px;
+}
+div.pad{
+    padding-right: 1px;
+}
+div.width50{
+    width:50%;
+}
+div.width25{
+    width:25%
+}
+div.closemargin{
+    margin-top: 0%;
+    margin-bottom:0%;
+}
