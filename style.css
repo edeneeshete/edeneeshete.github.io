@@ -22,6 +22,15 @@ div.title{
     text-align: right;
     letter-spacing: 30px;
 }
+div.weirdflat{
+    font-family: "gloridot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 160px;
+    line-height: 5px;
+    text-align: right;
+    letter-spacing: 30px;
+}
 div.and{
     font-family: "gloridot", sans-serif;
     font-weight: 400;
@@ -36,6 +45,13 @@ font-weight: 400;
 font-style: normal;
     font-size: 100px;
     line-height:120px;
+
+}
+div.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 div.paraonetext{ 
     font-family: "lft-etica-mono", sans-serif;
@@ -52,6 +68,7 @@ div.special{
     font-size: 50px;
     line-height: 52px;
     text-align: justify;
+    word-break: break-all;
 }
 div.paratwotext{ 
     font-family: "lft-etica-mono", sans-serif;
@@ -83,6 +100,12 @@ div.smalltext{
 div.pushtop{
     margin-top: 100px;
 }
+div.pushtoplil{
+    margin-top: 50px;
+}
+div.pushbottom{
+    margin-bottom: 100px;;
+}
 div.leftmargin{
     margin-left: 300px;
 }
@@ -92,6 +115,8 @@ div.marginleftauto{
 div.marginleftsame{
     margin-left: 61px;
 }
+
+
 div.rightmargin{
     margin-right: 61px;
 }
@@ -111,17 +136,22 @@ div.container{
     display: flex;
     flex-wrap: wrap;
 }
+div.width30{
+    width: 33%;
+}
 div.swatch{
-    width:300px;
-    height:300px;
-    border-radius: 10px;
-    background-color: red;
-    margin-right: 50px;
+    width:1000px;
+    height: 700px;px;
+    background-color: white;
+    margin-right: 0px;
 }
 div.bg-white{
     background-color: white;
 }
-div.bg-red{
+div.marginbgblue{
+    margin-right: 500px;
+}
+div.bg-blue{
     background-color: blue;
 }
 div.bg-red{
@@ -141,6 +171,12 @@ div.width25{
 }
 div.width100{
     width: 100%;
+}
+div.width75{
+    width: 75%;
+}
+div.width10{
+    width: 10%;
 }
 div.width33{
     width:33%
