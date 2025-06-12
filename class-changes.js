@@ -1,7 +1,7 @@
 const classChanges = [
   { time: 10, target: ".paraonetext", add: "text-red" },
   { time: 15, target: ".paraonetext", remove: "text-red" },
-  { time: 67, target: ".largetext", add: "text-blue" },
+  { time: 67, target: ".", add: "" },
 
   { time: 80, target: ".paraonetext", add: "text-blue" },
   { time: 82, target: ".paraonetext", remove: "text-blue" },
