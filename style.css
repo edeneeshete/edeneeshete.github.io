@@ -8,6 +8,7 @@ body {
     font-style: normal;
     font-size: 20px;
     color: white;
+    cursor: url('square.png'), auto;
 }
 img, video{
     width:100%;
@@ -50,6 +51,18 @@ font-style: normal;
     line-height:120px;
 
 }
+div.flat.img{
+    z-index: -1;
+}
+div.flattext{
+    font-family: "gloridot", sans-serif;
+font-weight: 400;
+font-style: normal;
+    font-size: 100px;
+    line-height:120px;
+    text-align: center;
+    align-items: center;
+}
 div.center{
     display: block;
     margin-left: auto;
@@ -63,6 +76,14 @@ div.paraonetext{
     font-size: 30px;
     line-height: 32px;
     text-align: justify;
+}
+div.time{ 
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
 }
 div.index{ 
     font-family: "lft-etica-mono", sans-serif;
@@ -79,6 +100,7 @@ div.special{
     font-size: 50px;
     line-height: 52px;
     text-align: justify;
+    align-items: center;
     word-break: break-all;
 }
 div.paratwotext{ 
@@ -114,6 +136,12 @@ div.pushtop{
 div.pushtoplil{
     margin-top: 50px;
 }
+div.pushreduce{
+    margin-top: -200px;
+}
+div.pushreduceless{
+    margin-top: -10px;
+}
 div.pushbottom{
     margin-bottom: 100px;;
 }
@@ -126,8 +154,9 @@ div.marginleftauto{
 div.marginleftsame{
     margin-left: 61px;
 }
-
-
+div.margincenter{
+    margin-left: 500px;
+}
 div.rightmargin{
     margin-right: 61px;
 }
@@ -141,7 +170,7 @@ div.text-blue{
     color: blue;
 }
 div.text-red{
-    color: red;
+    color: #ff0100;
 }
 div.container{
     display: flex;
@@ -159,6 +188,9 @@ div.swatch{
 div.bg-white{
     background-color: white;
 }
+div.bg-black{
+    background-color: black;
+}
 div.marginbgblue{
     margin-right: 500px;
 }
@@ -166,7 +198,7 @@ div.bg-blue{
     background-color: blue;
 }
 div.bg-red{
-    background-color: red;
+    background-color: #ff0000;
 }
 div.text-move{
    margin-right: 10px;
@@ -195,6 +227,11 @@ div.width33{
 div.petrolburn{
     src
 }
+div.introduction{
+    width: 50%;
+    align: center;
+
+}
 div.closemargin{
     margin-top: 0%;
     margin-bottom:0%;
@@ -203,8 +240,13 @@ div.closemargin{
 }
 
 /*hero video*/
-
-
+div.width45{
+    width:45%;
+}
+div.marginintro{
+    margin-left: 5px;
+    move
+}
 div.herovideo{
     width: 400px;
     position:fixed;
@@ -214,7 +256,9 @@ div.herovideo{
 div.herovideo video{
     border-radius:20px;
 }
-
+div.imgborder internet {
+    border: 10px solid red;
+}
 .welcome {
     position: fixed;
     top: 0;
