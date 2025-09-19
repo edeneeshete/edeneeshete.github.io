@@ -1,0 +1,309 @@
+body {
+    background-color: black;
+    background-image: url(grid.png);
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: lft-etica-mono, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    cursor: url('square.png'), auto;
+}
+img, video{
+    width:100%;
+    display:block
+}
+div.imgborder{
+    border: 10px solid red;
+}
+div.title{
+    font-family: "gloridot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 180px;
+    line-height: 200px;
+    text-align: right;
+    letter-spacing: 30px;
+}
+div.weirdflat{
+    font-family: "gloridot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 160px;
+    line-height: 5px;
+    text-align: right;
+    letter-spacing: 30px;
+}
+div.and{
+    font-family: "gloridot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 230px;
+    line-height: 220px;
+    letter-spacing: 30px;
+}
+div.largetext{
+    font-family: "gloridot", sans-serif;
+font-weight: 400;
+font-style: normal;
+    font-size: 120px;
+    line-height:125px;
+
+}
+div.flat.img{
+    z-index: -1;
+}
+div.flattext{
+    font-family: "gloridot", sans-serif;
+font-weight: 400;
+font-style: normal;
+    font-size: 100px;
+    line-height:120px;
+    text-align: center;
+    align-items: center;
+}
+div.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+div.paraonetext{ 
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 32px;
+    text-align: justify;
+}
+div.time{ 
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+}
+div.index{ 
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 23px;
+    line-height: 25px;
+    text-align:left;
+}
+div.special{ 
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 52px;
+    text-align: justify;
+    align-items: center;
+    word-break: break-all;
+}
+div.paratwotext{ 
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 23px;
+    line-height: 25px;
+    text-align: right;
+}
+
+div.textleft {
+    text-align: left;
+}
+
+div.textcenter {
+    text-align: center;
+}
+
+div.textright {
+    text-align: right;
+}
+div.moveperspective{
+    left: 50px;
+}
+div.smalltext{
+    font-size: 14px;
+    line-height:16px;
+}
+div.pushtop{
+    margin-top: 100px;
+}
+div.pushtoplil{
+    margin-top: 50px;
+}
+div.pushreduce{
+    margin-top: -200px;
+}
+div.pushreduceless{
+    margin-top: -10px;
+}
+div.pushbottom{
+    margin-bottom: 100px;;
+}
+div.leftmargin{
+    margin-left: 300px;
+}
+div.marginleftauto{
+    margin-left: auto;
+}
+div.marginleftsame{
+    margin-left: 61px;
+}
+div.margincenter{
+    margin-left: 500px;
+}
+div.rightmargin{
+    margin-right: 61px;
+}
+div.rightmarginweird{
+    margin-right: 200px;
+}
+div.text-white{
+    color: white;
+}
+div.text-blue{
+    color: blue;
+}
+div.text-red{
+    color: #ff0100;
+}
+div.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.width30{
+    width: 33%;
+}
+div.swatch{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(0, 0, 0);
+    margin-right: 0px;
+}
+div.bg-white{
+    background-color: white;
+}
+div.bg-black{
+    background-color: black;
+}
+div.marginbgblue{
+    margin-right: 500px;
+}
+div.bg-blue{
+    background-color: blue;
+}
+div.bg-red{
+    background-color: #ff0000;
+}
+div.text-move{
+   margin-right: 10px;
+}
+div.pad{
+    padding-right: 1px;
+}
+div.width50{
+    width:50%;
+}
+div.width25{
+    width:25% ;
+}
+div.width100{
+    width: 100%;
+}
+div.width75{
+    width: 75%;
+}
+div.width10{
+    width: 10%;
+}
+div.width33{
+    width:33%
+}
+div.petrolburn{
+    src
+}
+div.introduction{
+    width: 50%;
+    align: center;
+
+}
+div.closemargin{
+    margin-top: 0%;
+    margin-bottom:0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+/*hero video*/
+div.width45{
+    width:45%;
+}
+div.marginintro{
+    margin-left: 5px;
+    move
+}
+div.herovideo{
+    width: 400px;
+    position:fixed;
+    top:20px;
+    left:20px; 
+}
+div.herovideo video{
+    border-radius:20px;
+}
+div.imgborder internet {
+    border: 10px solid red;
+}
+.welcome {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: white;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    cursor: pointer;
+  }
+  
+  .welcome.visible {
+    display: flex;
+    flex-wrap: wrap;
+  }
+div.flash.active{
+}
+header {
+  transition: backdrop-filter 0.3s;
+}
+.jitter {
+    display: inline-block;
+    animation: jitter 0.3s infinite;
+  }
+  
+@keyframes jitter {
+    0%   { transform: translate(0.5px, -0.5px) rotate(0deg); }
+    25%  { transform: translate(-0.5px, 0.5px) rotate(0.5deg); }
+    50%  { transform: translate(0.5px, 0.5px) rotate(-0.5deg); }
+    75%  { transform: translate(-0.5px, -0.5px) rotate(0deg); }
+    100% { transform: translate(0px, 0px) rotate(0deg); }
+}
+.float-xy {
+    display: inline-block;
+    animation: floatxy 6s ease-in-out infinite;
+}
+  
+@keyframes floatxy {
+    0%   { transform: translate(0px, 0px); }
+    25%  { transform: translate(6px, -10px); }
+    50%  { transform: translate(-6px, -6px); }
+    75%  { transform: translate(4x, 6px); }
+    100% { transform: translate(0px, 0px); }
+}
