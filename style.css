@@ -37,7 +37,7 @@ div.titles{
     font-family: "libra-mn", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 100px;
+    font-size: 60px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -76,6 +76,10 @@ div.text-blue{
 div.aligncentre{
     align-items: center;
 }
+div.marginleftnormal{
+    margin-left: 10%;
+    margin-right: auto;
+}
 div.bodytext{ 
     font-family: "lft-etica-mono", sans-serif;
     font-weight: 400;
@@ -87,7 +91,17 @@ div.bodytext{
     margin-left: 10%;
     margin-right: auto;
 }
-
+div.quotes{ 
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: black;
+    text-align: right;
+    width: 30%;
+    margin-left: auto;
+    margin-right: 10%;
+}
 div.alignleft{
     align-content: flex-start;
 }
