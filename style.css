@@ -46,13 +46,104 @@ div.titles{
 }
 div.text-move{
     position: absolute;          /* positions relative to container */
-    transform: translate(53%, -448%); /* true centering */
+    transform: translate(53.5%, -360%); /* true centering */
 
 }
 div.text-move2{
     position: absolute;          /* positions relative to container */
     transform: translate(177%, -448%); /* true centering */
-
+}
+div.text-move3{
+    position: absolute;          /* positions relative to container */
+    transform: translate(25.5%, -101%); /* true centering */
+}
+div.text-move4{
+    position: absolute;          /* positions relative to container */
+    transform: translate(149.5%, -172.5%); /* true centering */
+}
+div.text-move5{
+    position: absolute;          /* positions relative to container */
+    transform: translate(59%, 2%); /* true centering */
+}
+div.text-move6{
+    position: absolute;          /* positions relative to container */
+    transform: translate(5%, 5%); /* true centering */
+}
+div.text-move7{
+    position: absolute;          /* positions relative to container */
+    transform: translate(178%, 5%); /* true centering */
+}
+div.text-move8{
+    position: absolute;          /* positions relative to container */
+    transform: translate(372%, 5%); /* true centering */
+}
+div.text-move9{
+    position: absolute;          /* positions relative to container */
+    transform: translate(120%, 35%); /* true centering */
+}
+div.text-move10{
+    position: absolute;          /* positions relative to container */
+    transform: translate(81.5%, 210%); /* true centering */
+}
+div.text-move11{
+    position: absolute;          /* positions relative to container */
+    transform: translate(176%, -278%); /* true centering */
+}
+div.text-move12{
+    position: absolute;          /* positions relative to container */
+    transform: translate(120%, 23%); /* true centering */
+}
+div.text-move13{
+    position: absolute;          /* positions relative to container */
+    transform: translate(120%, -8%); /* true centering */
+}
+div.text-move14{
+    position: absolute;          /* positions relative to container */
+    transform: translate(120%, -17%); /* true centering */
+}
+div.movetriangle{
+    position: absolute;          /* positions relative to container */
+    transform: translate(700%, -600%); /* true centering */
+}
+div.movehalf{
+    position: absolute;          /* positions relative to container */
+    transform: translate(700%, -0%); /* true centering */
+}
+div.movemoon{
+    position: absolute;          /* positions relative to container */
+    transform: translate(700%, -170%); /* true centering */
+}
+div.poem-move{
+    position: absolute;          /* positions relative to container */
+    transform: translate(200%, 100%); /* true centering */
+}
+div.nuclear-move{
+    position: absolute;          /* positions relative to container */
+    transform: translate(200%, 100%); /* true centering */
+}
+div.multi-move{
+    position: absolute;          /* positions relative to container */
+    transform: translate(0%, -110%); /* true centering */
+}
+div.person-move{
+    position: absolute;          /* positions relative to container */
+    transform: translate(1500%, -100%); /* true centering */
+}
+div.runes-move{
+    position: absolute;          /* positions relative to container */
+    transform: translate(1300%, -120%); /* true centering */
+}
+div.genesis-move{
+    position: absolute;          /* positions relative to container */
+    transform: translate(0%, -730%); /* true centering */
+}
+div.shapeshifting-move{
+    position: absolute;          /* positions relative to container */
+    transform: translate(50%, -700%); /* true centering */
+}
+div.nuclear-move{
+    position: absolute;          /* positions relative to container */
+    transform: translate(-0%, 400%); /* true centering */
 }
 div.bluebackground{
     background-color: #708dc1;
@@ -72,6 +163,16 @@ div.text-border-blue{
     padding: 3px 3px 3px 3px;
     display: inline-block;
 }
+div.text-border-black{
+    border: 5px solid #000000;
+    padding: 3px 3px 3px 3px;
+    display: inline-block;
+}
+div.text-border-beige{
+    border: 5px solid #c7b68b;
+    padding: 3px 3px 3px 3px;
+    display: inline-block;
+}
 div.text-white{
     color: white;
 }
@@ -88,14 +189,20 @@ div.genesis{
     margin-left: auto;
     margin-right: auto;
 }
-div.text-blue{
-    color: #708dc1;
+div.personmargin{
+    margin-left: 45%;
+}
+div.text-beige{
+    color: #c7b68b;
 }
 .width50{
     width: 50%;
 }
 div.aligncentre{
     align-items: center;
+}
+div.marginbodytext{
+    margin-left: 10%;
 }
 div.marginleftnormal{
     margin-left: 10%;
@@ -114,6 +221,12 @@ div.marginatoms2{
     margin-right: auto;
     margin-top: 10%;
 }
+div.marginflex{
+    align-items: center;
+}
+div.flexheight{
+    height: 300px;
+}
 div.bodytext{ 
     font-family: "lft-etica-mono", sans-serif;
     font-weight: 400;
@@ -121,9 +234,10 @@ div.bodytext{
     font-size: 20px;
     color: black;
     text-align: left;
-    width: 30%;
-    margin-left: 10%;
+    width: 45%;
+    margin-left: -13%;
     margin-right: auto;
+    margin-top: -20%;
 }
 div.caption{ 
     font-family: "lft-etica-mono", sans-serif;
@@ -133,6 +247,15 @@ div.caption{
     text-align: left;
     width: 30%;
     margin-left: 10%;
+    margin-right: auto;
+}
+div.captionflex{ 
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 0%;
     margin-right: auto;
 }
 div.quotes{ 
@@ -146,12 +269,21 @@ div.quotes{
     margin-left: auto;
     margin-right: 10%;
 }
+div.poem{ 
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    width: 30%;
+}
 div.alignleft{
     align-content: flex-start;
 }
-div.text-right{
+div.right-aligned-text {
     text-align: right;
-}
+  }
 div.width100{
     width: 100%;
 }
@@ -333,4 +465,93 @@ div.magnify-text:hover {
       clip-path: polygon(0 85%, 100% 85%, 100% 100%, 0 100%);
       transform: translate(5px, 5px);
     }
+}
+div.circle-image {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+  
+div.circle-image img {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.6s ease;
+}
+div.circle-image img.oneh{
+    opacity: 0;
+}
+div.circle-image:hover img.oneh{
+    opacity: 1;
+  }
+div.circle-image:hover img.one{
+    opacity: 0;
+}
+video {
+    width: 100%;
+    height: 400px; /* or any height you want */
+    object-fit: cover;
+    object-position: center; /* can change to 'top' or 'left' */
+    border-radius: 12px; /* optional, for rounded corners */
+    overflow: hidden;
+}
+div.video-hover {
+    position: relative;
+    width: auto; /* adjust size as needed */
+    height: auto;
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer;
+}
+  
+div.video-hover img,
+div.video-hover video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: opacity 0.4s ease;
+}
+  
+  /* Hide the video by default */
+div.video-hover video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+  
+  /* Fade video in on hover */
+div.video-hover:hover video {
+    opacity: 1;
+}
+.banner-container {
+    position: relative;
+    width: 700px;       
+    height: 800px;      
+    overflow: hidden;
+  }
+  
+  
+  .banner-scroll {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    animation: scroll 4s linear infinite;
+    z-index: 1;
+  }
+  
+  .banner-scroll img {
+    display: block;
+    width: 100%;
+  }
+  
+  @keyframes scroll {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50%); } /* scroll half since we duplicated image */
   }
