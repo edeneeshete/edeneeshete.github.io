@@ -176,7 +176,7 @@ div.multi-move{
 }
 div.contents-title{
     position: absolute;          /* positions relative to container */
-    transform: translate(140%, -70%); /* true centering */
+    transform: translate(130%, -70%); /* true centering */
     text-align: center;
 }
 div.contents-move{
