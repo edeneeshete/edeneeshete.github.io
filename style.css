@@ -1,6 +1,9 @@
 body {
     background-color: white;
 }
+html, body {
+    overflow-x: hidden;
+  }
 
 img{
     width:100%;
@@ -31,22 +34,40 @@ div.subheading{
     font-size: 25px;
     text-align: center;
 
-    border: 5px solid #5c3721;     /* tight border */
-    display: inline-block;       /* hugs the text */
-    padding: 6px 12px;           /* breathing room */
+    border: 5px solid #000000; 
+    display: inline-block;      
+    padding: 6px 12px;           
+}
+div.subheadingdark{ 
+    font-family: "libra-mn", sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    font-style: normal;
+    font-size: 25px;
+    text-align: center;
+
+    border: 5px solid #000000; 
+    fill: #000000;
+    display: inline-block;      
+    padding: 6px 12px;           
 }
 div.titles{ 
     font-family: "libra-mn", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 60px;
+    font-size: 85px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
+div.logo-move{
+    position: fixed;
+    margin-right: 10%;
+    transform: translate(885%, 0%); 
+}
 div.text-move{
-    position: absolute;          /* positions relative to container */
-    transform: translate(53.5%, -360%); /* true centering */
+    position: absolute;         
+    transform: translate(53.5%, -360%); 
 
 }
 div.text-move2{
@@ -83,7 +104,7 @@ div.text-move9{
 }
 div.text-move10{
     position: absolute;          /* positions relative to container */
-    transform: translate(81.5%, 210%); /* true centering */
+    transform: translate(81.5%, 150%); /* true centering */
 }
 div.text-move11{
     position: absolute;          /* positions relative to container */
@@ -101,9 +122,21 @@ div.text-move14{
     position: absolute;          /* positions relative to container */
     transform: translate(120%, -17%); /* true centering */
 }
+div.text-move15{
+    position: absolute;          /* positions relative to container */
+    transform: translate(165%, -240.5%); /* true centering */
+}
+div.text-move16{
+    position: absolute;          /* positions relative to container */
+    transform: translate(120%, 0%); /* true centering */
+}
 div.movetriangle{
     position: absolute;          /* positions relative to container */
     transform: translate(700%, -600%); /* true centering */
+}
+div.movehole{
+    position: absolute;          /* positions relative to container */
+    transform: translate(700%, -150%); /* true centering */
 }
 div.movehalf{
     position: absolute;          /* positions relative to container */
@@ -113,9 +146,25 @@ div.movemoon{
     position: absolute;          /* positions relative to container */
     transform: translate(700%, -170%); /* true centering */
 }
+div.move4{
+    position: absolute;          /* positions relative to container */
+    transform: translate(700%, -120%); /* true centering */
+}
+div.move-arrow{
+    position: absolute;          /* positions relative to container */
+    transform: translate(700%, -180%); /* true centering */
+}
 div.poem-move{
     position: absolute;          /* positions relative to container */
-    transform: translate(200%, 100%); /* true centering */
+    transform: translate(200%, 50%); /* true centering */
+}
+div.infinite-move{
+    position: absolute;          /* positions relative to container */
+    transform: translate(200%, -50%); /* true centering */
+}
+div.nuclearquote-move{
+    position: absolute;          /* positions relative to container */
+    transform: translate(200%, -600%); /* true centering */
 }
 div.nuclear-move{
     position: absolute;          /* positions relative to container */
@@ -125,9 +174,23 @@ div.multi-move{
     position: absolute;          /* positions relative to container */
     transform: translate(0%, -110%); /* true centering */
 }
+div.contents-title{
+    position: absolute;          /* positions relative to container */
+    transform: translate(140%, -70%); /* true centering */
+    text-align: center;
+}
+div.contents-move{
+    position: absolute;          /* positions relative to container */
+    transform: translate(55%, 0%); /* true centering */
+    text-align: center;
+}
 div.person-move{
     position: absolute;          /* positions relative to container */
     transform: translate(1500%, -100%); /* true centering */
+}
+div.paramove{
+    position: absolute;          /* positions relative to container */
+    transform: translate(32%, 1%); /* true centering */
 }
 div.runes-move{
     position: absolute;          /* positions relative to container */
@@ -135,7 +198,7 @@ div.runes-move{
 }
 div.genesis-move{
     position: absolute;          /* positions relative to container */
-    transform: translate(0%, -730%); /* true centering */
+    transform: translate(0%, -570%); /* true centering */
 }
 div.shapeshifting-move{
     position: absolute;          /* positions relative to container */
@@ -143,7 +206,7 @@ div.shapeshifting-move{
 }
 div.nuclear-move{
     position: absolute;          /* positions relative to container */
-    transform: translate(-0%, 400%); /* true centering */
+    transform: translate(-0%, 270%); /* true centering */
 }
 div.bluebackground{
     background-color: #708dc1;
@@ -173,11 +236,19 @@ div.text-border-beige{
     padding: 3px 3px 3px 3px;
     display: inline-block;
 }
+div.text-border-brown{
+    border: 5px solid #5c3721;
+    padding: 3px 3px 3px 3px;
+    display: inline-block;
+}
 div.text-white{
     color: white;
 }
 div.text-black{
     color: black;
+}
+div.text-beige{
+    color: #c7b68bc7;
 }
 div.text-brown{
     color: #5c3721 ;
@@ -239,6 +310,15 @@ div.bodytext{
     margin-right: auto;
     margin-top: -20%;
 }
+div.contentstext{ 
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    width: 45%;
+}
 div.caption{ 
     font-family: "lft-etica-mono", sans-serif;
     font-weight: 400;
@@ -258,13 +338,24 @@ div.captionflex{
     margin-left: 0%;
     margin-right: auto;
 }
-div.quotes{ 
+div.quotesold{ 
     font-family: "lft-etica-mono", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 60px;
     color: black;
     text-align: right;
+    width: 30%;
+    margin-left: auto;
+    margin-right: 10%;
+}
+div.quotes{ 
+    font-family: "libra-mn", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: black;
+    text-align: center;
     width: 30%;
     margin-left: auto;
     margin-right: 10%;
@@ -555,3 +646,7 @@ div.video-hover:hover video {
     0% { transform: translateY(0); }
     100% { transform: translateY(-50%); } /* scroll half since we duplicated image */
   }
+a:link { color: black; text-decoration: none; }     /* normal link */
+a:visited { color: black; }                         /* after clicked */
+a:hover { color: #2e1d12; text-decoration: underline; } /* on hover */
+a:active { color: #4c2113; }                        /* while clicking */
