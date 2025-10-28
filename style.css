@@ -72,7 +72,7 @@ div.text-move{
 }
 div.text-move2{
     position: absolute;          /* positions relative to container */
-    transform: translate(177%, -448%); /* true centering */
+    transform: translate(177%, -486%); /* true centering */
 }
 div.text-move3{
     position: absolute;          /* positions relative to container */
@@ -104,7 +104,11 @@ div.text-move9{
 }
 div.text-move10{
     position: absolute;          /* positions relative to container */
-    transform: translate(81.5%, 150%); /* true centering */
+    transform: translate(82.5%, 170%); /* true centering */
+}
+div.text-move101{
+    position: absolute;          /* positions relative to container */
+    transform: translate(82.5%, 138%); /* true centering */
 }
 div.text-move11{
     position: absolute;          /* positions relative to container */
@@ -124,11 +128,11 @@ div.text-move14{
 }
 div.text-move15{
     position: absolute;          /* positions relative to container */
-    transform: translate(165%, -240.5%); /* true centering */
+    transform: translate(165%, -237%); /* true centering */
 }
 div.text-move16{
     position: absolute;          /* positions relative to container */
-    transform: translate(120%, 0%); /* true centering */
+    transform: translate(120%, 17%); /* true centering */
 }
 div.movetriangle{
     position: absolute;          /* positions relative to container */
@@ -248,7 +252,7 @@ div.text-black{
     color: black;
 }
 div.text-beige{
-    color: #c7b68bc7;
+    color: #c7b68b;
 }
 div.text-brown{
     color: #5c3721 ;
@@ -297,10 +301,10 @@ div.marginflex{
 }
 div.flexheight{
     height: 300px;
-}
-div.bodytext{ 
+} 
+div.bodytext{
     font-family: "lft-etica-mono", sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     font-style: normal;
     font-size: 20px;
     color: black;
@@ -312,7 +316,7 @@ div.bodytext{
 }
 div.contentstext{ 
     font-family: "lft-etica-mono", sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     font-style: normal;
     font-size: 25px;
     color: black;
@@ -321,7 +325,7 @@ div.contentstext{
 }
 div.caption{ 
     font-family: "lft-etica-mono", sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     font-style: normal;
     font-size: 15px;
     text-align: left;
@@ -331,7 +335,7 @@ div.caption{
 }
 div.captionflex{ 
     font-family: "lft-etica-mono", sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     font-style: normal;
     font-size: 15px;
     text-align: left;
@@ -359,6 +363,25 @@ div.quotes{
     width: 30%;
     margin-left: auto;
     margin-right: 10%;
+}
+div.caption2{ 
+    font-family: "libra-mn", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #5c3721;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: 10%;
+}
+div.caption2move{
+    position: absolute;          /* positions relative to container */
+    transform: translate(40%, -200%); /* true centering */
+}
+div.caption3move{
+    position: absolute;          /* positions relative to container */
+    transform: translate(47%, -200%); /* true centering */
 }
 div.poem{ 
     font-family: "lft-etica-mono", sans-serif;
@@ -454,12 +477,11 @@ div.overlay-caption {
     position: absolute;          /* positions relative to container */
     top: 50%;                    /* vertical center */
     left: 50%;                   /* horizontal center */
-    transform: translate(-150%, -215%); /* true centering */
+    transform: translate(-133%, -193%); /* true centering */
 
     font-family: "lft-etica-mono", sans-serif;
     font-weight: 100;
     font-style: normal;
-    font-size: 14px;
 }
 div.runes{
     margin-left: auto;
@@ -650,3 +672,12 @@ a:link { color: black; text-decoration: none; }     /* normal link */
 a:visited { color: black; }                         /* after clicked */
 a:hover { color: #2e1d12; text-decoration: underline; } /* on hover */
 a:active { color: #4c2113; }                        /* while clicking */
+
+div.dissolve-text {
+    opacity: 1; /* Initial state: fully visible */
+    transition: opacity 0.5s ease-in-out; /* Smooth transition for opacity over 0.5 seconds */
+}
+  
+div.dissolve-text:hover {
+    opacity: 0; /* On hover: fully transparent (dissolved) */
+}
