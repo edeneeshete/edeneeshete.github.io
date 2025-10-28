@@ -60,6 +60,16 @@ div.titles{
     margin-left: auto;
     margin-right: auto;
 }
+div.titlesend{ 
+    font-family: "libra-mn", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    text-align: left;
+    margin-left: 10%;
+    width: 70%;
+    margin-right: auto;
+}
 div.logo-move{
     position: fixed;
     margin-right: 10%;
@@ -82,6 +92,7 @@ div.text-move4{
     position: absolute;          /* positions relative to container */
     transform: translate(149.5%, -172.5%); /* true centering */
 }
+
 div.text-move5{
     position: absolute;          /* positions relative to container */
     transform: translate(59%, 2%); /* true centering */
@@ -153,6 +164,14 @@ div.movemoon{
 div.move4{
     position: absolute;          /* positions relative to container */
     transform: translate(700%, -120%); /* true centering */
+}
+div.moveup{
+    position: absolute;          /* positions relative to container */
+    transform: translate(700%, 110%); /* true centering */
+}
+div.movedown{
+    position: absolute;          /* positions relative to container */
+    transform: translate(700%, -100%); /* true centering */
 }
 div.move-arrow{
     position: absolute;          /* positions relative to container */
@@ -331,6 +350,17 @@ div.caption{
     text-align: left;
     width: 30%;
     margin-left: 10%;
+    margin-right: auto;
+}
+div.colophon{ 
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 15px;
+    text-align: left;
+    width: 110%;
+    margin-left: 0%;
+    background-color: #000000;
     margin-right: auto;
 }
 div.captionflex{ 
